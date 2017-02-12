@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
+import {ConfigModule} from './modules/config';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import {AppComponent} from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    ConfigModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,0 +1,4 @@
+{
+  "deploymentType": "test",
+  "endpoint": "localhost:4200/test"
+}
