@@ -1,13 +1,10 @@
 import {NgModule, Inject} from '@angular/core';
 
-import {ConfigComponent} from './config.component';
 import {ConfigService} from './services/config.service';
 import {ConfigHttpRepository} from './repositories/config.repository.http';
 
 @NgModule({
-  declarations: [
-    ConfigComponent,
-  ],
+  declarations: [],
   imports: [],
   providers: [
     {
@@ -19,9 +16,7 @@ import {ConfigHttpRepository} from './repositories/config.repository.http';
       useClass: ConfigHttpRepository,
     },
   ],
-  exports: [
-    ConfigComponent,
-    ],
+  exports: [],
 })
 export class ConfigModule {
   constructor(@Inject('IConfigService') configService: ConfigService) {
