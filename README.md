@@ -3,7 +3,7 @@
 Folgendes GithubRepository wurde als Beispiel mit GitBook synchronisiert: https://github.com/S3bastianGriesa/angular2-config.
 Das dazugehörige Gitbook ist hier zu finden: https://s3bastiangriesa.gitbooks.io/angular2-config/content/v/develop/
 
-- Der GitBook Editor erlaubt das direkte editieren der jeweiligen Markdowndateien in einem WYSIWYG-Editor. Der Editor arbeitet mit Shortcuts und erlaubt das schnelle editieren der Dokumente. Es ist auch möglich direkt Markdown in einer Splitview mit Markdown/Ergebnis-Ansicht zu editieren. Leider werden die Changes vom Benutzer jedes mal als fester Commit mit der Benennung `Updates README.md` auf den Branch gepusht. Diese Commitmessage scheint sich auch nicht ändern zu lassen.
+- Der GitBook Editor erlaubt das direkte Editieren der jeweiligen Markdowndateien in einem WYSIWYG-Editor. Der Editor arbeitet mit Shortcuts und erlaubt das schnelle editieren der Dokumente. Es ist auch möglich direkt Markdown in einer Splitview mit Markdown/Ergebnis-Ansicht zu editieren. Leider werden die Changes vom Benutzer jedes mal als fester Commit mit der Benennung `Updates README.md` auf den Branch gepusht. Diese Commitmessage scheint sich auch nicht ändern zu lassen.
 
 - Das GitBook ist frei durchsuchbar und verfügt über ein Inhaltsverzeichnis, dass sich über alle Markdowndateien aufspannt. Sehr praktisch für große `Knowledge`-Repositories.
 
@@ -14,6 +14,6 @@ Die Branches sind leider nach dem Muster `CHANGES/1`, `CHANGES/2`, `CHANGES/3`..
 
 In der kurzen Zeit in der ich mir GitBook angeguckt habe sind mir leider zwei Minuspunkte aufgefallen - zum einen die automatische Benennung der Branches nach dem Format `CHANGES/1`, `CHANGES/2` usw.. und die festen Commits nach dem Muster `Updates README.md`. Diese beiden Punkte schränken uns leider etwas in einer sauberen Versionierung, wie wir sie von unserem Git-Arbeitsprozess gewöhnt sein, ein. 
 
-Abgesehen von den beiden Minuspunkten zur Versionierung bietet uns GitBook eine GitHub Integration und vorallem eine übersichtliche, durchsuchbare und sehr gut wartbare Schnittstelle zu unserer Dokumentation, ohne dass wir auf GitHub als Dokumentationsmedium verzichten müssen.
+Abgesehen von den beiden Problemen bei der Versionierung bietet uns GitBook eine GitHub Integration und vorallem eine übersichtliche, durchsuchbare und sehr gut wartbare Schnittstelle zu unserer Dokumentation, ohne dass wir auf GitHub als Dokumentationsmedium verzichten müssen.
 
-Jedoch sollten wir bezüglich der beiden Minuspunkte noch Recherche betreiben, ob es nicht doch möglich ist, die Benennung zu ändern und/oder uns Gedanken machen, wie wir damit umgehen wollen und ob damit GitBook überhaupt die richtige Lösung für uns ist.
+Jedoch sollten wir bezüglich der Benennung der Commits und Branches noch Recherche betreiben, ob es nicht doch möglich ist, die Benennung zu ändern und/oder uns Gedanken machen, wie wir damit umgehen wollen und ob damit GitBook überhaupt die richtige Lösung für uns ist.
